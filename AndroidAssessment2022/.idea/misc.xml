@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/KIT/ANDROID WITH KOTLIN/ANDROID/AndroidAssessment2022/app/src/main/res/drawable/background_button.xml" value="0.127" />
+        <entry key="..\:/KIT/ANDROID WITH KOTLIN/ANDROID/AndroidAssessment2022/app/src/main/res/drawable/background_edittext.xml" value="0.1245" />
+        <entry key="..\:/KIT/ANDROID WITH KOTLIN/ANDROID/AndroidAssessment2022/app/src/main/res/drawable/baground_button.xml" value="0.127" />
+        <entry key="..\:/KIT/ANDROID WITH KOTLIN/ANDROID/AndroidAssessment2022/app/src/main/res/drawable/baground_edittext.xml" value="0.127" />
+        <entry key="..\:/KIT/ANDROID WITH KOTLIN/ANDROID/AndroidAssessment2022/app/src/main/res/drawable/bg_error_edittext.xml" value="0.1245" />
+        <entry key="..\:/KIT/ANDROID WITH KOTLIN/ANDROID/AndroidAssessment2022/app/src/main/res/drawable/ic_baseline_email_24.xml" value="0.127" />
+        <entry key="..\:/KIT/ANDROID WITH KOTLIN/ANDROID/AndroidAssessment2022/app/src/main/res/drawable/ic_baseline_lock_24.xml" value="0.127" />
+        <entry key="..\:/KIT/ANDROID WITH KOTLIN/ANDROID/AndroidAssessment2022/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.127" />
+        <entry key="..\:/KIT/ANDROID WITH KOTLIN/ANDROID/AndroidAssessment2022/app/src/main/res/drawable/ic_baseline_visibility_24.xml" value="0.127" />
+        <entry key="..\:/KIT/ANDROID WITH KOTLIN/ANDROID/AndroidAssessment2022/app/src/main/res/layout/activity_dash_board.xml" value="0.176" />
+        <entry key="..\:/KIT/ANDROID WITH KOTLIN/ANDROID/AndroidAssessment2022/app/src/main/res/layout/activity_login.xml" value="0.2" />
+        <entry key="..\:/KIT/ANDROID WITH KOTLIN/ANDROID/AndroidAssessment2022/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/KIT/ANDROID WITH KOTLIN/ANDROID/AndroidAssessment2022/app/src/main/res/layout/activity_play_quiz.xml" value="0.25" />
+        <entry key="..\:/KIT/ANDROID WITH KOTLIN/ANDROID/AndroidAssessment2022/app/src/main/res/layout/activity_signup.xml" value="0.2" />
+        <entry key="..\:/KIT/ANDROID WITH KOTLIN/ANDROID/AndroidAssessment2022/app/src/main/res/layout/option_item_layout.xml" value="0.2453125" />
+        <entry key="..\:/KIT/ANDROID WITH KOTLIN/ANDROID/AndroidAssessment2022/app/src/main/res/menu/action_menu.xml" value="0.2" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

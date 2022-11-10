@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    app:cardElevation="3dp"
+    app:cardCornerRadius="5dp"
+    app:cardUseCompatPadding="true"
+    android:id="@+id/card_parent"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+
+  <FrameLayout
+      android:layout_width="120dp"
+      android:layout_height="130dp">
+
+      <ImageView
+          android:id="@+id/iv_thumnail"
+          android:src="@drawable/love_ni_bhavai"
+          android:scaleType="centerCrop"
+          android:layout_width="120dp"
+          android:layout_height="130dp"/>
+
+      <LinearLayout
+          android:background="@color/black_trans"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_gravity="bottom"
+          android:padding="3dp">
+
+          <TextView
+              android:id="@+id/tv_title"
+              android:textSize="16dp"
+              android:textAlignment="center"
+              android:ellipsize="end"
+              android:maxLines="2"
+              android:textStyle="bold"
+              android:textColor="@color/white"
+              android:text="Love Ni Bhavai"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"/>
+
+      </LinearLayout>
+
+  </FrameLayout>
+
+
+
+</androidx.cardview.widget.CardView>

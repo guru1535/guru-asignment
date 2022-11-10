@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="12dp"
+    android:background="@color/black"
+    tools:context=".SecondActivity">
+
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:text="NAME :"
+        android:textSize="24dp"
+        android:background="@color/elish_blue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/tv_email"
+        android:text="EMAIL :"
+        android:textSize="24dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/elish_blue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/tv_age"
+        android:text="AGE :"
+        android:textSize="24dp"
+        android:layout_marginTop="12dp"
+        android:background="@color/elish_blue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+
+</LinearLayout>

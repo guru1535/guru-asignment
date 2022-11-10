@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+
+
+   <androidx.viewpager.widget.ViewPager
+       android:id="@+id/view_pager"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"/>
+
+
+
+
+
+   <LinearLayout
+       android:layout_margin="16dp"
+       android:layout_gravity="bottom"
+       android:gravity="right"
+       android:orientation="horizontal"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+
+      <LinearLayout
+          android:orientation="horizontal"
+          android:id="@+id/layout_dots"
+          android:layout_gravity="center_vertical"
+          android:layout_weight="1"
+          android:layout_width="0dp"
+          android:layout_height="wrap_content">
+
+      </LinearLayout>
+
+      <androidx.appcompat.widget.AppCompatButton
+          android:id="@+id/btn_next"
+          android:text="Next"
+          android:background="@drawable/btn_bg"
+          android:textColor="@color/white"
+
+          android:layout_width="wrap_content"
+          android:layout_height="36dp"/>
+
+
+   </LinearLayout>
+
+   <TextView
+
+       android:paddingHorizontal="16dp"
+       android:paddingVertical="8dp"
+       android:text="Skip"
+       android:layout_gravity="top|right"
+
+       android:textStyle="bold"
+       android:textColor="@color/black"
+       android:textSize="18sp"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"/>
+
+</FrameLayout>

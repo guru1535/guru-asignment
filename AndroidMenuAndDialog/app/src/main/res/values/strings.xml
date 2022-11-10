@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">AndroidMenuAndDialog </string>
+    <string-array name="languages">
+        <item>JAVA</item>
+        <item>Python</item>
+        <item>PHP</item>
+        <item>C Language</item>
+        <item>Dart</item>
+        <item>Kotlin</item>
+    </string-array>
+</resources>

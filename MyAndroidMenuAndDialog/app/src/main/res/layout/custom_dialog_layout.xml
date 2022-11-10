@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24sp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/tv_head"
+        android:text="You Win !!"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="#FC7B01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:src="@drawable/india_logo"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:layout_width="175dp"
+        android:layout_height="175dp"/>
+    <TextView
+        android:id="@+id/tv_message"
+        android:text="Hello Keval ,\nYou Won The Match"
+        android:textAlignment="center"
+        android:textColor="#17188A"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_ok"
+        android:text="OK"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/btn_bg"
+        android:textColor="@color/white"
+        android:paddingLeft="80dp"
+        android:paddingRight="80dp"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"/>
+
+</LinearLayout>
